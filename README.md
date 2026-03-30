@@ -116,9 +116,19 @@ This would enable better financial insights and budgeting support.
 
 ## 📸 Screenshots
 
-Screenshots from early development stages illustrate the concept and UI design.
+### 🔐 Login Screen
+
+![Login Screen](images/saltbank_login.png)
+
+Simple login screen with username and password input.
 
 ---
+
+### 💳 Account Overview
+
+![Account Overview](images/saltbank_account.png)
+
+Displays customer name, account number, balance, and categorized transactions.
 
 ## 📚 What I Explored
 
