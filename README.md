@@ -2,13 +2,13 @@
 
 ## 🚀 Overview
 
-This project explores the design of a banking system built on a mainframe using COBOL, CICS, and DB2.
+This project is an early-stage concept of a mainframe-based banking system built using COBOL, CICS, and DB2.
 
-The core idea is to help users better understand their finances by classifying transactions into categories such as:
+The goal is to explore how a banking application can help users better understand their finances by classifying transactions into categories such as necessary, lifestyle, and flexible spending.
 
-* Necessary (e.g. rent, utilities)
-* Lifestyle (e.g. subscriptions like Netflix)
-* Flexible (e.g. discretionary spending)
+The system is also designed with the idea of providing recommendations based on transaction history, helping users identify unnecessary expenses. In a more advanced version, this could be enhanced with AI-driven insights to suggest ways to reduce lifestyle spending and improve financial habits.
+
+The project focuses on system design, data modeling, and user interaction rather than a fully implemented solution.
 
 ---
 
@@ -102,15 +102,18 @@ CREATE TABLE Transac (
 
 ---
 
-## 🔍 Design Idea (Future Enhancement)
+## 🤖 Future Vision
 
-A classification layer would categorize each transaction into:
+The system is intended to support intelligent recommendations based on user spending patterns.
 
-* Necessary
-* Lifestyle
-* Flexible
+Examples of potential features:
 
-This would enable better financial insights and budgeting support.
+* Highlighting high spending in lifestyle categories
+* Suggesting areas where users can reduce unnecessary expenses
+* Providing simple budgeting tips based on transaction history
+* Potential integration of AI for more advanced financial insights
+
+This reflects how modern banking applications can evolve from transaction systems into decision-support tools.
 
 ---
 
@@ -120,7 +123,7 @@ This would enable better financial insights and budgeting support.
 
 ![Login Screen](images/saltbank_login.png)
 
-Simple login screen with username and password input.
+Minimal login interface for user authentication.
 
 ---
 
@@ -129,6 +132,14 @@ Simple login screen with username and password input.
 ![Account Overview](images/saltbank_account.png)
 
 Displays customer name, account number, balance, and categorized transactions.
+
+Shows how spending is distributed across:
+
+* Necessary
+* Lifestyle
+* Flexible
+
+---
 
 ## 📚 What I Explored
 
@@ -143,4 +154,4 @@ Displays customer name, account number, balance, and categorized transactions.
 
 This repository contains an early-stage version of the system.
 
-COBOL program logic and some components are not included, but the focus is on system design and architecture.
+COBOL program logic, supporting modules, and database definitions are not included. The focus is on system design and architecture.
